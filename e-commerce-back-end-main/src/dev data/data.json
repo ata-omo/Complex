@@ -1,0 +1,61 @@
+{
+    "title": "Pixel 7 Pro",
+    "category": "Mobile Phones",
+    "description": "A phone launched by google",
+    "price": 84999,
+    "highlights": ["12 GB Ram", "256 GB Internal Storage", "50 + 12 + 48 MP Camera"],
+    "specifications": [
+        {
+            "category": "General",
+            "content": [
+                {
+                    "specTitle": "Ram",
+                    "specValue": "12 GB"
+                },
+                {
+                    "specTitle": "Internal Storage",
+                    "specValue": "256 GB"
+                },
+                {
+                    "specTitle": "Sim type",
+                    "specValue": "Dual Sim(nano + eSim)"
+                },
+                {
+                    "specTitle": "Touch Screen",
+                    "specValue": "Yes"
+                }
+            ]
+        }
+    ],
+    "images": [
+        {
+            "public_id": "",
+            "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg"
+        },
+        {
+            "public_id": "",
+            "src": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/p/h/o/-original-imaggsuds85yjber.jpeg?q=70"
+        },
+        {
+            "public_id": "",
+            "src": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2021/10/google-tensor-cover-1.jpeg?w=2000&quality=82&strip=all&ssl=1"
+        }
+    ],
+    "stock": 5,
+    "rating": {
+        "count": 2000,
+        "value": 4.7
+    },
+    "reviews":[
+        {
+            "username": "Ankit Kumar",
+            "rating": 5,
+            "comment": "Expected Better Camera Performance"
+        },
+        {
+            "username": "thepoorcoder",
+            "rating": 5, 
+            "comment": "Best Camera"
+        }
+    ]
+}

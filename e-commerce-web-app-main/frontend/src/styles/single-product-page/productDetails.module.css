@@ -1,0 +1,147 @@
+.productDetailsSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    font-size: 1.1vw;
+}
+
+.productTitle {
+    font-weight: 500;
+}
+
+.ratingsAndReviews {
+    margin-top: -0.4vw;
+    display: flex;
+    gap: 1vw;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.ratingsAndReviews .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.2vw;
+    background-color: rgb(0, 138, 0);
+    color: white;
+    padding: 0.1vw 0.3vw;
+    border-radius: 0.2vw;
+}
+
+.ratingsAndReviews .ratingCount {
+    color: gray;
+}
+
+.stock {
+    color: red;
+    font-weight:500;
+    margin-top: -0.2vw;
+}
+
+.price {
+    font-size: 2vw;
+    font-weight:600;
+    padding: 0.5vw 0vw;
+}
+
+.highlights {
+    display: flex;
+    gap: 5vw;
+    align-items: flex-start
+}
+
+.highlights > span {
+    font-weight: 500;
+    color: gray;
+}
+
+.highlights > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.highlights ul li {
+    list-style-type: none;
+    position: relative;
+    letter-spacing: 0.06vw;
+}
+
+.highlights ul li::before {
+    content: "";
+    height: 0.5vw;
+    width: 0.5vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 0;
+    margin-left: -1.5vw;
+    border-radius: 50%;
+    background: #c2c2c2;
+}
+
+.description {
+    display: flex;
+    gap: 3vw;
+}
+
+.description > span {
+    font-weight: 500;
+    color: gray;
+}
+
+.description > p {
+    line-height: 1.5vw;
+    letter-spacing: 0.06vw;
+}
+
+.specs {
+    border: 0.1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+}
+
+.specs h2 {
+    background-color: teal;
+    color: white;
+}
+
+.specs h2, .specs h3{
+    font-weight: 600;
+    padding: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+.specs > .singleSpec {
+    border-top: 0.1vw solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw 0vw;
+}
+
+.specs ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    padding-left: 0.5vw;
+}
+
+.specs ul li {
+    list-style-type: none;
+    line-height: 1.5vw;
+    letter-spacing: 0.06vw;
+    width: 100%;
+}
+
+.specs ul li span {
+    display: inline-block;
+}
+
+.specTitle {
+    width: 25%;
+    font-weight: 500;
+    color: gray;
+}
+
+.specValue {
+    width: 75%;
+}

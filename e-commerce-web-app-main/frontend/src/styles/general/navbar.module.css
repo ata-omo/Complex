@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    min-height: 3vw;
+    background-color: #1e1e1e;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+
+.navbar > a {
+    display: flex;
+    padding: 0vw 1.5vw;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: 200;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.navbar > a:hover {
+    background-color: rgb(245, 245, 220);
+    color: black;
+}

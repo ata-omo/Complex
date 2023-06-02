@@ -1,0 +1,83 @@
+.modal {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 105, 105, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.closeBtn {
+    font-size: 2vw;
+    right: 1vw;
+    top: 1vw;
+    position: fixed;
+    color: white;
+    cursor: pointer;
+}
+
+.heading {
+    align-self: center;
+    font-size: 2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -0.1vw;
+}
+
+.reviewForm {
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    gap: 1.5vw;
+    font-size: 1.1vw;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 0.5vw;
+}
+
+.reviewForm > span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.title, .comment {
+    width: 100%;
+    outline: none;
+    font: inherit;
+    padding: 0.5vw;
+    border-radius: 0.2vw;
+    border: none;
+    background-color: rgba(0, 128, 128, 0.05);
+}
+
+.title {
+    height: 2.5vw;
+}
+
+.comment {
+    height: 10vw;
+}
+
+.reviewForm span > *{
+    display: block;
+}
+
+.submitBtn {
+    align-self: center;
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}

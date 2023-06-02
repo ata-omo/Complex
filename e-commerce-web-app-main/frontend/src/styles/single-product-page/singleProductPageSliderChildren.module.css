@@ -1,0 +1,25 @@
+.sliderChildrenGrid {
+    height: 12vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5%;
+    gap: 3%;
+}
+
+.child {
+    height: 12vw;
+}
+
+.child > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.25s;
+    background-color: black;
+}
+
+.child:hover > img {
+    opacity: 1;
+}

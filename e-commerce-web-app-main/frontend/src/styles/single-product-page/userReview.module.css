@@ -1,0 +1,95 @@
+.reviewSection {
+    width: 100%;
+    border: 0.1vw solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    gap:0.5vw;
+    font-size: 1.1vw;
+}
+
+.reviewSection > .heading{
+    display: block;
+    background-color: teal;
+    color: white;
+    padding: 0.6vw;
+    border-bottom: 0.1vw solid #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewSection > .heading > button {
+    font-size: inherit;
+}
+
+.writeReviewBtn {
+    padding: 0.4vw 0.5vw;
+    border-radius: 0.1vw;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: teal;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0.8vw; */
+}
+
+.singleReview {
+    width: 99%;
+    padding: 0.5vw;
+    border-bottom: 0.1vw solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+}
+
+.singleReview:last-child {
+    border: none;
+}
+
+.reviewerDetails {
+    font-weight: 500;
+    color: gray;
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 35fr;
+    align-items: center;
+}
+
+.reviewHeading {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.reviewTitle {
+    font-weight: 500;
+    color: teal;
+}
+
+.reviewComment {
+    font-size: 1.2vw;
+}
+
+.reviewLikeDislike {
+    display: flex;
+    gap: 1vw;
+}
+
+.reviewLikeDislike > div {
+    display: flex;
+    gap: 0.5vw;
+}
+
+.reviewLikeDislike  svg {
+    color: gray;
+    font-size: 1.2vw;
+}
+
+.userRating {
+    display: inline-block;
+}

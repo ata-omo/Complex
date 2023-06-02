@@ -1,0 +1,22 @@
+.btns {
+    z-index: 1;
+    position: absolute;
+    bottom: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5vw;
+  }
+  
+  .btns > div {
+    cursor: pointer;
+    display: inline-block;
+    height: 1.1vw;
+    width: 1.1vw;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .btns >div:hover{
+    background-color: white;
+  }

@@ -1,0 +1,125 @@
+.container {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 1vw 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vw;
+    white-space: nowrap;
+    letter-spacing: 0.1em;
+    padding: 0.5vw 0;
+}
+
+.bar {
+    width: 100%;
+    display: grid;
+    column-gap: 0.7vw;
+    row-gap: 1.2vw;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+    border: 0.1vw solid #e1e1e1;
+    border-radius: 0.2vw;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.item a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item  .imgContainer {
+    flex: 1;
+}
+
+.itemDetails  a {
+    text-decoration: none;
+}
+
+.item:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+.imgContainer  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.1vw;
+}
+
+.itemDetails {
+    height: 2vw;
+    font-weight: 500;
+    background-color: rgba(0, 128, 128);
+    color: white;
+    white-space: nowrap;
+    position: relative;
+    border-top: 0.1vw solid #e1e1e1;
+    transition: all 0.25s;
+}
+
+.item:hover .itemDetails{
+    background-color: white;
+    color: teal;
+}
+
+.itemDetails > .title {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 2.5%;
+}
+
+.itemDetails > .price {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2.5%;
+}
+
+.addToCartBtn {
+    top: 3%;
+    right: 3%;
+    z-index: -1;
+    height: 10%;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.item:hover .addToCartBtn {
+    z-index: 1;
+}
+
+.addToCartBtn:hover{
+    top: 2%;
+    right: 2%;
+    height: 12%;
+    width: 12%;
+}
+
+.addToCartBtn  svg {
+    top:0%;
+    left:0%;
+    position: absolute;
+    color: teal;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:1.5em;
+}
+
+.right a {
+    text-decoration: none;
+    font-family: inherit;
+    color: #1c1a17;
+    align-self: center;
+    list-style-type: none;
+    white-space: nowrap;
+}
+    

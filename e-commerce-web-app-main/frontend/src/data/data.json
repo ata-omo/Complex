@@ -1,0 +1,263 @@
+{
+  "slides": [
+    {
+      "id": 0,
+      "image": "https://images.pexels.com/photos/4011891/pexels-photo-4011891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "OWN YOUR STYLE",
+      "description": "Get upto 30% off on top brands and more"
+    },
+    {
+      "id": 1,
+      "image": "https://images.pexels.com/photos/5998120/pexels-photo-5998120.jpeg?cs=srgb&dl=pexels-max-rahubovskiy-5998120.jpg",
+      "title": "LIVE THE LUXURY",
+      "description": "Get a flat ₹15,000 cashback on a min. purchase of ₹1,00,00"
+    },
+    {
+      "id": 2,
+      "image": "https://images.pexels.com/photos/4201333/pexels-photo-4201333.jpeg",
+      "title": "SAY CHEESE",
+      "description": "The golden era is back. Introducing the new COSINA SLR9x"
+    },
+    {
+      "id": 3,
+      "image": "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?cs=srgb&dl=pexels-mica-asato-1082529.jpg",
+      "title": "DENIM'S DAY",
+      "description": "Wear off the worries with the latest all comfort denims"
+    }
+  ],
+
+  "popCategories": [
+    {
+      "id": 0,
+      "img": "https://images.pexels.com/photos/2122356/pexels-photo-2122356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "title":"BRIDAL DRESSES",
+      "popular": true
+    },
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/5145180/pexels-photo-5145180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "title": "SHIRT STYLE!",
+      "popular": true
+    },
+    {
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1669888940542-bf597f76ef39?ixlib=rb-4.0.3&dl=thai-nguyen-4M44Gs4dLgs-unsplash.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true
+    },
+    {
+      "id": 3,
+      "img": "https://images.pexels.com/photos/2803137/pexels-photo-2803137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "title": "HOME",
+      "popular": true
+    },
+    {
+      "id": 4,
+      "img": "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "LIGHT JACKETS",
+      "popular": true
+    }
+  ],
+
+  "products":[
+    {
+      "id": 0,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 1,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 2,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 3,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 4,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 5,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 6,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 7,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 8,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 9,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 10,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 11,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 12,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 13,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 14,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 15,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 16,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    },
+    {
+      "id": 17,
+      "src": "https://m.media-amazon.com/images/I/71to9xkUHrL._SX679_.jpg",
+      "title": "GOOGLE PIXEL",
+      "highlightInfo": "6/128 Black",
+      "popular": true,
+      "mrp":50000,
+      "price": 44999,
+      "shipCharge": 29,
+      "inventory": 5
+    }
+  ]
+}

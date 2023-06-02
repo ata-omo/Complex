@@ -1,0 +1,22 @@
+.productPageMain {
+    padding: 0.7vw;
+    position: relative;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2vw;
+}
+
+.left {
+    border: 0.1vw solid #e1e1e1;
+    height: fit-content;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

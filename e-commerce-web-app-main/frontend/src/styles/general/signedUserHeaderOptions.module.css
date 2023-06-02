@@ -1,0 +1,56 @@
+.dropdown {
+    position: relative;
+    color: #1c1a17;
+    font-family: inherit;
+}
+
+.dropdown > .user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown:hover .menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu > a {
+    color: #1c1a17;
+    text-decoration: none;
+    font-size: 0.75em;
+    padding: 0.7em 1em;
+}
+
+.menu > a:hover {
+    background: #f5f5f5;
+}
+
+.menu {
+    position: absolute;
+    right: -50%;
+    z-index: 1000000;
+    display: grid;
+    width: 9em;
+    padding: 0.4em 0;
+    background: #ffffff;
+    border-radius: 0.5em;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 2em 2em rgb(0, 0, 0, 6%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s;
+}
+
+.menu::before {
+    content: "";
+    background: inherit;
+    border-top: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    position: absolute;
+    top: -0.35em;
+    right: 1.5em;
+    width: 0.6em;
+    height: 0.6em;
+    rotate: -45deg;
+}
